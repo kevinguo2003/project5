@@ -415,7 +415,7 @@ public class LinkedList<E> {
 
 
     /**
-     * sort by genre
+     * sort the list
      */
     @SuppressWarnings("unchecked")
     public void sort() {
@@ -447,6 +447,6 @@ public class LinkedList<E> {
 
     }
 
-//
+
 
 }

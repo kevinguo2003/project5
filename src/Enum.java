@@ -1,7 +1,7 @@
 package prj5;
 
 /**
- * a constant class
+ * a class to store the constants used for the peoject
  * 
  * @author Group24
  *         Haisheng Xu (haisheng),

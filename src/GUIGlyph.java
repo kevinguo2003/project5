@@ -8,7 +8,8 @@ import CS2114.Window;
 import CS2114.WindowSide;
 
 /**
- * the front end class where all the graphic are created
+ * a front end class that creates glyph using the data from the file inputed.
+ * then visualize the data.
  * 
  * @author Group24
  *         Haisheng Xu (haisheng),
@@ -19,6 +20,7 @@ import CS2114.WindowSide;
  */
 public class GUIGlyph {
 
+    //the fields needed for the window
     private Window window;
     private Button artistButton;
     private Button titleButton;
@@ -34,14 +36,12 @@ public class GUIGlyph {
     private int numOfPage;
     private LinkedList<Song> songs;
     private int page;
-    
-
-    
-    
+   
     private String property;
 
     /**
-     * default cons
+     * a default constructor that initialize the basic window as well as
+     * get the song list
      * 
      * @param songList
      *            a list of songs
@@ -53,17 +53,22 @@ public class GUIGlyph {
         window.setSize(800, 400);
         setUpButtons();
         
-        property = null;
+        property = null; // decide which kind of info was displayed
         songs = songList;
         page = 0;
-        ini(); 
+        ini(); // use the Initialize method
         numOfPage = songs.size() / 9;
+        //calculate the number of pages
         if (songs.size() % 9 > 0) {
             numOfPage++;
         }
         
     }
     
+    /**
+     * Initialize the window by calling other method and 
+     * set the status of buttons to the default
+     */
     public void ini()
     {
         next.disable();
@@ -85,7 +90,7 @@ public class GUIGlyph {
     
     
     /**
-     * sort the songlist according to the keyword
+     * sort the song list according to the keyword
      * 
      * @param keyword
      *            the keyword identifying which kind of sort
@@ -130,7 +135,7 @@ public class GUIGlyph {
 
 
     /**
-     * sort by genre
+     * sort by year
      * 
      * @param <T>
      *            basically songs
@@ -170,7 +175,7 @@ public class GUIGlyph {
 
 
     /**
-     * sort by title
+     * sort by name
      * 
      * @param <T>
      *            Basically songs
@@ -190,7 +195,7 @@ public class GUIGlyph {
 
 
     /**
-     * swap two objects
+     * swap two objects in the list
      * 
      * @param songList
      *            the list that swap action happened
@@ -200,8 +205,9 @@ public class GUIGlyph {
      *            the end index
      */
     private static void swap(LinkedList<Song> songList, int begin, int end) {
-        Song currSong = songList.get(begin); // 0
-        Song currSong2 = songList.get(end); // 1 0,1 null,1 1,1 1 ,0
+        Song currSong = songList.get(begin);
+        Song currSong2 = songList.get(end); 
+        //swap the nodes
         songList.remove(begin);
         songList.add(begin, currSong2);
         songList.remove(end);
@@ -273,7 +279,7 @@ public class GUIGlyph {
                 
             {
                 Song song = songs.get(page * 9 + i);
-                //
+                //displacement by hears
                 int percentHeardsRead = 80 * (song.getHeardsByHobbies()[0] * 100 / Math.max(1 , song.getHobbyHeardsTotal()[0])) / 100;
                 int percentHeardsArt = 80 * (song.getHeardsByHobbies()[1] * 100 / Math.max(1 , song.getHobbyHeardsTotal()[1])) / 100;
                 int percentHeardsSports = 80 * (song.getHeardsByHobbies()[2] * 100 / Math.max(1 , song.getHobbyHeardsTotal()[2])) / 100;
@@ -288,9 +294,6 @@ public class GUIGlyph {
                     Shape shape = new Shape(90 + 230 * i, 35,
                         5, 52, Color.BLACK);
                     window.addShape(shape);
-                    System.out.println(song.getHeardsByHobbies()[0]);
-                    System.out.println(song.getHobbyHeardsTotal()[0]);
-                    System.out.println(song.getHeardsByHobbies()[0] * 100/ Math.max(1 , song.getHobbyHeardsTotal()[0]) );
                     //Title info
                     String info1 = song.getTitle();
                     TextShape text1 = new TextShape(35 + 230 * i, 2, info1);
@@ -299,7 +302,7 @@ public class GUIGlyph {
                     TextShape text2 = new TextShape(35 + 230 * i, 16, info2);
                     text2.setBackgroundColor(Color.WHITE);
                     
-                    //displacement by heards
+                    
                     
                     
                     //glyph
@@ -478,12 +481,10 @@ public class GUIGlyph {
                 
                 //displacement by hears
                 int percentHeardsCS = 80 * (song.getHeardsByMajors()[0] * 100 / Math.max(1 , song.getMajorsHeardsTotal()[0])) / 100;
-                
                 int percentHeardsEng = 80 * (song.getHeardsByMajors()[1] * 100 / Math.max(1 , song.getMajorsHeardsTotal()[1])) / 100;
                 int percentHeardsMath = 80 * (song.getHeardsByMajors()[2] * 100 / Math.max(1 , song.getMajorsHeardsTotal()[2])) / 100;
                 int percentHeardsOther = 80 * (song.getHeardsByMajors()[3] * 100 / Math.max(1 , song.getMajorsHeardsTotal()[3])) / 100;
                 //displacement by likes
-                
                 int percentLikesCS = 80 * (song.getLikesByMajors()[0]  * 100 / Math.max(1 , song.getMajorsLikesTotal()[0])) / 100;
                 int percentLikesEng = 80 * (song.getLikesByMajors()[1] * 100 / Math.max(1 , song.getMajorsLikesTotal()[1])) / 100;
                 int percentLikesMath = 80 * (song.getLikesByMajors()[2] * 100 / Math.max(1 , song.getMajorsLikesTotal()[2])) / 100;
@@ -682,12 +683,10 @@ public class GUIGlyph {
                 
                 //displacement by hears
                 int percentHeardsNE = 80 * (song.getHeardsByRegions()[0] * 100 / Math.max(1 , song.getRegionsHeardsTotal()[0])) / 100;
-                
                 int percentHeardsSE = 80 * (song.getHeardsByRegions()[1] * 100 / Math.max(1 , song.getRegionsHeardsTotal()[1])) / 100;
                 int percentHeardsUS = 80 * (song.getHeardsByRegions()[2] * 100 / Math.max(1 , song.getRegionsHeardsTotal()[2])) / 100;
                 int percentHeardsOut = 80 * (song.getHeardsByRegions()[3] * 100 / Math.max(1 , song.getRegionsHeardsTotal()[3])) / 100;
                 //displacement by likes
-                
                 int percentLikesNE = 80 * (song.getLikesByRegions()[0] * 100 / Math.max(1 , song.getRegionsLikesTotal()[0])) / 100;
                 int percentLikesSE = 80 * (song.getLikesByRegions()[1] * 100 / Math.max(1 , song.getRegionsLikesTotal()[1])) / 100;
                 int percentLikesUS = 80 * (song.getLikesByRegions()[2] * 100 / Math.max(1 , song.getRegionsLikesTotal()[2])) / 100;
@@ -896,7 +895,9 @@ public class GUIGlyph {
     
     
     /**
-     * the method defines the function of the next Button
+     * respond to the action of clicking the next button,
+     * we will go to the next page as well as reset the status 
+     * of buttons
      * @param next Button
      */
     public void clickedNext(Button next) {
@@ -915,7 +916,7 @@ public class GUIGlyph {
     }
     
     /**
-     * The method defines the function of previous Button
+     * go to previous page and initialize the graphs again.
      * @param previous Button
      */
     public void clickedPrevious(Button previous) {
@@ -931,6 +932,10 @@ public class GUIGlyph {
 
     }
     
+    /**
+     * sort and display the result by title
+     * @param button the "sortByTitle" button
+     */
     public void clickedTitle(Button button)
     {
         window.removeAllShapes();
@@ -938,22 +943,30 @@ public class GUIGlyph {
         ini(); 
     }
     
+    /**
+     * sort and display the result by artist
+     * @param button the "sortByArtist" button
+     */
     public void clickedArtist(Button button)
     {
         window.removeAllShapes();
         sort("name", songs); 
-        ini(); 
-        
-        
-                
+        ini();  
     }
+    /**
+     * sort and display the result by genre
+     * @param button the "sortByGenre" button
+     */
     public void clickedGenre(Button button)
     {
         window.removeAllShapes();
         sort("genre", songs); 
-        ini(); 
-                
+        ini();      
     }
+    /**
+     * sort and display the result by year
+     * @param button the "sortByYear" button
+     */
     public void clickedYear(Button button)
     {
         window.removeAllShapes();
@@ -961,6 +974,11 @@ public class GUIGlyph {
         ini(); 
                 
     }
+    
+    /**
+     * display the information of hobbies
+     * @param button the button clicked
+     */
     public void clickedHobby(Button button)
     {
         window.removeAllShapes();
@@ -982,6 +1000,11 @@ public class GUIGlyph {
         }
                 
     }
+    
+    /**
+     * display the information of majors
+     * @param button the button clicked
+     */
     public void clickedMajor(Button button)
     {
         window.removeAllShapes();
@@ -1003,6 +1026,11 @@ public class GUIGlyph {
             next.enable();
         }
     }
+    
+    /**
+     * display the information of regions
+     * @param button the button clicked
+     */
     public void clickedRegion(Button button)
     {
         window.removeAllShapes();

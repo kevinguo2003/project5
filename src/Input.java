@@ -59,7 +59,6 @@ public class Input {
         @SuppressWarnings("resource")
         Scanner file = new Scanner(fileNew);
         file.nextLine();
-
         while (file.hasNextLine()) {
             String songInfo = file.nextLine();
             String[] info = songInfo.split(",");
@@ -106,9 +105,7 @@ public class Input {
                         }
                         else if ((i < str.length) && (str[i].equals("No")
                             || str[i].equals(""))) {
-
-                            currSong.addHeardTotals(pp);
-
+                            currSong.addHeardTotals(pp);//add to total counts
                         }
                         i++;
                         if (i < str.length && str[i].equals("Yes")) {
@@ -118,7 +115,7 @@ public class Input {
                         }
                         else if ((i < str.length) && (str[i].equals("No")
                             || str[i].equals(""))) {
-                            currSong.addLikeTotals(pp);
+                            currSong.addLikeTotals(pp);//total counts used for calculate percentage
 
                         }
 
@@ -133,15 +130,14 @@ public class Input {
 
 
     /**
-     * the main method which passes the parameter to construcotr
+     * the main method which passes the parameter to constructor
      * 
      * @param args
      * @throws FileNotFoundException
      */
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length == 2) {
-            new Input(args[0], args[1]);
-
+            new Input(args[0], args[1]);//takes two filename
         }
         else {
             //hard coded for final submission

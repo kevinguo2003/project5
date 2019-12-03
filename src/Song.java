@@ -4,7 +4,8 @@
 package prj5;
 
 /**
- * Song class
+ * a song class that calculate all the data
+ * needed for the front-end display
  * 
  * @author Group24
  *         Haisheng Xu (haisheng),
@@ -61,16 +62,17 @@ public class Song {
         date = year;
         genre = type;
 
+        likes = new LinkedList<Person>();
+        heards = new LinkedList<Person>();
+        
+        //Initialize
         hobbiesHeardsTotal = new int[4];
         hobbiesLikesTotal = new int[4];
         majorsHeardsTotal = new int[4];
         majorsLikesTotal = new int[4];
         regionsHeardsTotal = new int[4];
         regionsLikesTotal = new int[4];
-
-        likes = new LinkedList<Person>();
-        heards = new LinkedList<Person>();
-
+        
         hobbiesHeards = new int[4];
         regionsHeards = new int[4];
         majorsHeards = new int[4];
@@ -79,6 +81,7 @@ public class Song {
         regionsLikes = new int[4];
         majorsLikes = new int[4];
 
+        // initialize the lists by setting the elements to be 0
         for (int i = 0; i < 4; i++) {
             hobbiesHeards[i] = 0;
             regionsHeards[i] = 0;
@@ -148,9 +151,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the hears field
      * 
-     * @return person's list
+     * @return the value of heards
      */
     public LinkedList<Person> getHeards() {
         return heards;
@@ -158,9 +161,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the likes field
      * 
-     * @return person;s list
+     * @return the value of likes
      */
     public LinkedList<Person> getLikes() {
         return likes;
@@ -168,9 +171,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the hobbiesHeards field
      * 
-     * @return hobbies count
+     * @return the array of hears sorted by hobbies
      */
     public int[] getHeardsByHobbies() {
         return hobbiesHeards;
@@ -178,9 +181,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the majorsHeards field
      * 
-     * @return majors count
+     * @return the array of hears sorted by majors
      */
     public int[] getHeardsByMajors() {
         return majorsHeards;
@@ -188,9 +191,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the regionsHeards field
      * 
-     * @return regions count
+     * @return the array of hears sorted by regions
      */
     public int[] getHeardsByRegions() {
         return regionsHeards;
@@ -198,9 +201,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the hobbiesLikes field
      * 
-     * @return hobbies count
+     * @return the array of likes sorted by hobbies
      */
     public int[] getLikesByHobbies() {
         return hobbiesLikes;
@@ -208,9 +211,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the majorsLikes field
      * 
-     * @return majors count
+     * @return the array of likes sorted by majors
      */
     public int[] getLikesByMajors() {
         return majorsLikes;
@@ -218,9 +221,9 @@ public class Song {
 
 
     /**
-     * getter
+     * a getter for the regionsLikes field
      * 
-     * @return regions count
+     * @return the array of likes sorted by regions
      */
     public int[] getLikesByRegions() {
         return regionsLikes;
@@ -228,9 +231,9 @@ public class Song {
 
 
     /**
-     * The getter method for get total number of hears in hobbies
+     * a getter for the hobbiesHeardsTotal field
      * 
-     * @return total hears by hobbies
+     * @return the total count for hears sorted by hobbies
      */
     public int[] getHobbyHeardsTotal() {
         return hobbiesHeardsTotal;
@@ -238,9 +241,9 @@ public class Song {
 
 
     /**
-     * The getter method for get total number of hears in hobbies
+     * a getter for the hobbiesLikesTotal field
      * 
-     * @return total likes by hobbies
+     * @return the total count for likes sorted by hobbies
      */
     public int[] getHobbyLikesTotal() {
         return hobbiesLikesTotal;
@@ -248,9 +251,9 @@ public class Song {
 
 
     /**
-     * getter for total majors likes
+     * a getter for the majorsLikesTotal field
      * 
-     * @return the count for total major likes
+     * @return the total count for likes sorted by majors
      */
     public int[] getMajorsLikesTotal() {
         return majorsLikesTotal;
@@ -258,9 +261,9 @@ public class Song {
 
 
     /**
-     * getter for total regions likes
+     * a getter for the regionsLikesTotal field
      * 
-     * @return the count for total region likes
+     * @return the total count for likes sorted by regions
      */
     public int[] getRegionsLikesTotal() {
         return regionsLikesTotal;
@@ -268,9 +271,9 @@ public class Song {
 
 
     /**
-     * getter for total majors hears
+     * a getter for the majorsHeardsTotal field
      * 
-     * @return the count for total major hears
+     * @return the total count for hears sorted by majors
      */
     public int[] getMajorsHeardsTotal() {
         return majorsHeardsTotal;
@@ -278,9 +281,9 @@ public class Song {
 
 
     /**
-     * getter for total regions hears
+     * a getter for the hobbiesLikesTotal field
      * 
-     * @return the count for total region hears
+     * @return the total count for hears sorted by regions
      */
     public int[] getRegionsHeardsTotal() {
         return regionsHeardsTotal;
@@ -288,7 +291,8 @@ public class Song {
 
 
     /**
-     * The toString method for Song class
+     * The toString method for a song, display all the 
+     * information and percentage regarding this song
      * 
      * @return String the info of the Song
      */
@@ -312,10 +316,10 @@ public class Song {
 
 
     /**
-     * do calc
+     * count the hears from the person list
      * 
      * @param pp
-     *            the person
+     *           the student who took the survey
      */
     public void addToHeards(Person pp) {
         if (pp.getHobby().equals("reading")) {
@@ -362,10 +366,10 @@ public class Song {
 
 
     /**
-     * do calc
+     * count the likes from the person list
      * 
      * @param pp
-     *            the person
+     *            the student who took the survey
      */
     public void addToLikes(Person pp) {
         if (pp.getHobby().equals("reading")) {
@@ -412,10 +416,10 @@ public class Song {
 
 
     /**
-     * do calc
+     * count the total number of responds of heard
      * 
      * @param pp
-     *            the person
+     *            the student who took the survey
      */
     public void addHeardTotals(Person pp) {
         if (pp.getHobby().equals("reading")) {
@@ -462,10 +466,10 @@ public class Song {
 
 
     /**
-     * do calc
+     * count the total number of responds of like
      * 
      * @param pp
-     *            the person
+     *            the student who took the survey
      */
     public void addLikeTotals(Person pp) {
         if (pp.getHobby().equals("reading")) {
