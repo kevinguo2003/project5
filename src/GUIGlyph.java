@@ -8,7 +8,7 @@ import CS2114.Window;
 import CS2114.WindowSide;
 
 /**
- * a front end class
+ * the front end class where all the graphic are created
  * 
  * @author Group24
  *         Haisheng Xu (haisheng),
