@@ -1,0 +1,611 @@
+Song Title: Creep
+Song Artist: Radiohead
+Song Genre: Alternative
+Song Year: 1992
+Heard
+reading:100 art:100 sports:57 music:42
+Likes
+reading:100 art:100 sports:57 music:14
+
+Song Title: River Flows in You
+Song Artist: Yiruma
+Song Genre: Instrumental
+Song Year: 2011
+Heard
+reading:100 art:50 sports:28 music:42
+Likes
+reading:100 art:50 sports:28 music:28
+
+Song Title: Careless Whisper
+Song Artist: Wham!
+Song Genre: Jazz
+Song Year: 1984
+Heard
+reading:100 art:100 sports:57 music:50
+Likes
+reading:100 art:100 sports:57 music:50
+
+Song Title: Master of Puppets
+Song Artist: Metallica
+Song Genre: Metal
+Song Year: 1986
+Heard
+reading:0 art:100 sports:42 music:16
+Likes
+reading:0 art:100 sports:42 music:16
+
+Song Title: Fade to Black
+Song Artist: Metallica
+Song Genre: Metal1
+Song Year: 1984
+Heard
+reading:0 art:100 sports:42 music:50
+Likes
+reading:0 art:100 sports:42 music:50
+
+Song Title: My Heart Will Go On
+Song Artist: Celine Dion
+Song Genre: Pop
+Song Year: 1997
+Heard
+reading:100 art:50 sports:71 music:100
+Likes
+reading:0 art:50 sports:71 music:71
+
+Song Title: Yesterday
+Song Artist: The Beatles
+Song Genre: Pop1
+Song Year: 1965
+Heard
+reading:0 art:100 sports:85 music:42
+Likes
+reading:0 art:100 sports:85 music:42
+
+Song Title: Eleanor R
+Song Artist: The Beatles
+Song Genre: Pop2
+Song Year: 1966
+Heard
+reading:100 art:100 sports:57 music:14
+Likes
+reading:100 art:100 sports:57 music:14
+
+Song Title: Don't Look Back in Anger
+Song Artist: Oasis
+Song Genre: Pop3
+Song Year: 1996
+Heard
+reading:0 art:100 sports:28 music:0
+Likes
+reading:0 art:100 sports:14 music:0
+
+Song Title: Wonderwall
+Song Artist: Oasis
+Song Genre: Pop4
+Song Year: 1995
+Heard
+reading:0 art:100 sports:85 music:57
+Likes
+reading:0 art:100 sports:85 music:57
+
+Song Title: Viva La Vida
+Song Artist: Coldplay
+Song Genre: Pop5
+Song Year: 2008
+Heard
+reading:100 art:100 sports:85 music:85
+Likes
+reading:100 art:100 sports:85 music:85
+
+Song Title: Tiny Dancer
+Song Artist: Elton John
+Song Genre: Pop6
+Song Year: 1972
+Heard
+reading:0 art:50 sports:100 music:33
+Likes
+reading:0 art:50 sports:100 music:33
+
+Song Title: Hotline Bling
+Song Artist: Drake
+Song Genre: R&B
+Song Year: 2015
+Heard
+reading:100 art:100 sports:100 music:71
+Likes
+reading:100 art:50 sports:100 music:42
+
+Song Title: All of Me
+Song Artist: John Legend
+Song Genre: R&B1
+Song Year: 2013
+Heard
+reading:0 art:100 sports:100 music:85
+Likes
+reading:0 art:50 sports:71 music:71
+
+Song Title: Wish You Were Here
+Song Artist: Pink Floyd
+Song Genre: Rock
+Song Year: 1975
+Heard
+reading:100 art:100 sports:85 music:71
+Likes
+reading:100 art:50 sports:71 music:71
+
+Song Title: Hey Jude
+Song Artist: The Beatles
+Song Genre: Rock1
+Song Year: 1968
+Heard
+reading:100 art:100 sports:85 music:85
+Likes
+reading:0 art:100 sports:85 music:85
+
+Song Title: Bohemian Rhapsody
+Song Artist: Queen
+Song Genre: Rock10
+Song Year: 1975
+Heard
+reading:100 art:100 sports:85 music:66
+Likes
+reading:100 art:100 sports:71 music:50
+
+Song Title: Don't Stop Me Now
+Song Artist: Queen
+Song Genre: Rock11
+Song Year: 1979
+Heard
+reading:100 art:100 sports:57 music:83
+Likes
+reading:100 art:100 sports:57 music:66
+
+Song Title: Piano Man
+Song Artist: Billie Joel
+Song Genre: Rock12
+Song Year: 1973
+Heard
+reading:100 art:50 sports:85 music:50
+Likes
+reading:100 art:50 sports:85 music:50
+
+Song Title: People are Strange
+Song Artist: The Doors
+Song Genre: Rock13
+Song Year: 1967
+Heard
+reading:0 art:50 sports:57 music:33
+Likes
+reading:0 art:0 sports:0 music:0
+
+Song Title: Clocks
+Song Artist: Coldplay
+Song Genre: Rock2
+Song Year: 2003
+Heard
+reading:0 art:50 sports:71 music:57
+Likes
+reading:0 art:50 sports:71 music:57
+
+Song Title: Snow
+Song Artist: Red Hot Chili Peppers
+Song Genre: Rock3
+Song Year: 2006
+Heard
+reading:0 art:100 sports:71 music:42
+Likes
+reading:0 art:100 sports:71 music:42
+
+Song Title: Smooth
+Song Artist: Santana
+Song Genre: Rock4
+Song Year: 1999
+Heard
+reading:0 art:100 sports:57 music:0
+Likes
+reading:0 art:100 sports:57 music:0
+
+Song Title: Freebird
+Song Artist: Lynyrd Skynyrd
+Song Genre: Rock5
+Song Year: 1974
+Heard
+reading:0 art:50 sports:71 music:50
+Likes
+reading:0 art:50 sports:57 music:50
+
+Song Title: Tuesday's Gone
+Song Artist: Lynyrd Skynyrd
+Song Genre: Rock6
+Song Year: 1973
+Heard
+reading:0 art:50 sports:42 music:0
+Likes
+reading:0 art:50 sports:28 music:0
+
+Song Title: Hotel California
+Song Artist: The Eagles
+Song Genre: Rock7
+Song Year: 1977
+Heard
+reading:100 art:100 sports:85 music:83
+Likes
+reading:0 art:100 sports:85 music:83
+
+Song Title: November Rain
+Song Artist: Guns n Roses
+Song Genre: Rock8
+Song Year: 1992
+Heard
+reading:0 art:100 sports:57 music:33
+Likes
+reading:0 art:100 sports:57 music:33
+
+Song Title: Stairway to Heaven
+Song Artist: Led Zeppelin
+Song Genre: Rock9
+Song Year: 1971
+Heard
+reading:100 art:100 sports:85 music:66
+Likes
+reading:100 art:100 sports:85 music:66
+
+Song Title: Hello
+Song Artist: Adele
+Song Genre: Soul
+Song Year: 2014
+Heard
+reading:100 art:100 sports:100 music:100
+Likes
+reading:100 art:100 sports:71 music:71
+
+Song Title: Someone Like You
+Song Artist: Adele
+Song Genre: Soul1
+Song Year: 2011
+Heard
+reading:100 art:100 sports:100 music:85
+Likes
+reading:100 art:100 sports:71 music:71
+
+Song Title: Beauty and the Beast
+Song Artist: Disney
+Song Genre: Soundtrack
+Song Year: 1991
+Heard
+reading:100 art:100 sports:100 music:85
+Likes
+reading:100 art:100 sports:85 music:85
+
+Song Title: A Whole New World
+Song Artist: Disney
+Song Genre: Soundtrack1
+Song Year: 1992
+Heard
+reading:100 art:50 sports:85 music:71
+Likes
+reading:100 art:50 sports:85 music:71
+
+Song Title: Let it Go
+Song Artist: Disney
+Song Genre: Soundtrack2
+Song Year: 2013
+Heard
+reading:100 art:100 sports:100 music:100
+Likes
+reading:100 art:100 sports:57 music:28
+
+Song Title: La La Land
+Song Artist: City of Stars
+Song Genre: Soundtrack3
+Song Year: 2016
+Heard
+reading:100 art:50 sports:28 music:50
+Likes
+reading:100 art:50 sports:28 music:50
+
+Song Title: A Whole New World
+Song Artist: Disney
+Song Genre: Soundtrack1
+Song Year: 1992
+Heard
+reading:100 art:50 sports:85 music:71
+Likes
+reading:100 art:50 sports:85 music:71
+
+Song Title: All of Me
+Song Artist: John Legend
+Song Genre: R&B1
+Song Year: 2013
+Heard
+reading:0 art:100 sports:100 music:85
+Likes
+reading:0 art:50 sports:71 music:71
+
+Song Title: Beauty and the Beast
+Song Artist: Disney
+Song Genre: Soundtrack
+Song Year: 1991
+Heard
+reading:100 art:100 sports:100 music:85
+Likes
+reading:100 art:100 sports:85 music:85
+
+Song Title: Bohemian Rhapsody
+Song Artist: Queen
+Song Genre: Rock10
+Song Year: 1975
+Heard
+reading:100 art:100 sports:85 music:66
+Likes
+reading:100 art:100 sports:71 music:50
+
+Song Title: Careless Whisper
+Song Artist: Wham!
+Song Genre: Jazz
+Song Year: 1984
+Heard
+reading:100 art:100 sports:57 music:50
+Likes
+reading:100 art:100 sports:57 music:50
+
+Song Title: Clocks
+Song Artist: Coldplay
+Song Genre: Rock2
+Song Year: 2003
+Heard
+reading:0 art:50 sports:71 music:57
+Likes
+reading:0 art:50 sports:71 music:57
+
+Song Title: Creep
+Song Artist: Radiohead
+Song Genre: Alternative
+Song Year: 1992
+Heard
+reading:100 art:100 sports:57 music:42
+Likes
+reading:100 art:100 sports:57 music:14
+
+Song Title: Don't Look Back in Anger
+Song Artist: Oasis
+Song Genre: Pop3
+Song Year: 1996
+Heard
+reading:0 art:100 sports:28 music:0
+Likes
+reading:0 art:100 sports:14 music:0
+
+Song Title: Don't Stop Me Now
+Song Artist: Queen
+Song Genre: Rock11
+Song Year: 1979
+Heard
+reading:100 art:100 sports:57 music:83
+Likes
+reading:100 art:100 sports:57 music:66
+
+Song Title: Eleanor R
+Song Artist: The Beatles
+Song Genre: Pop2
+Song Year: 1966
+Heard
+reading:100 art:100 sports:57 music:14
+Likes
+reading:100 art:100 sports:57 music:14
+
+Song Title: Fade to Black
+Song Artist: Metallica
+Song Genre: Metal1
+Song Year: 1984
+Heard
+reading:0 art:100 sports:42 music:50
+Likes
+reading:0 art:100 sports:42 music:50
+
+Song Title: Freebird
+Song Artist: Lynyrd Skynyrd
+Song Genre: Rock5
+Song Year: 1974
+Heard
+reading:0 art:50 sports:71 music:50
+Likes
+reading:0 art:50 sports:57 music:50
+
+Song Title: Hello
+Song Artist: Adele
+Song Genre: Soul
+Song Year: 2014
+Heard
+reading:100 art:100 sports:100 music:100
+Likes
+reading:100 art:100 sports:71 music:71
+
+Song Title: Hey Jude
+Song Artist: The Beatles
+Song Genre: Rock1
+Song Year: 1968
+Heard
+reading:100 art:100 sports:85 music:85
+Likes
+reading:0 art:100 sports:85 music:85
+
+Song Title: Hotel California
+Song Artist: The Eagles
+Song Genre: Rock7
+Song Year: 1977
+Heard
+reading:100 art:100 sports:85 music:83
+Likes
+reading:0 art:100 sports:85 music:83
+
+Song Title: Hotline Bling
+Song Artist: Drake
+Song Genre: R&B
+Song Year: 2015
+Heard
+reading:100 art:100 sports:100 music:71
+Likes
+reading:100 art:50 sports:100 music:42
+
+Song Title: La La Land
+Song Artist: City of Stars
+Song Genre: Soundtrack3
+Song Year: 2016
+Heard
+reading:100 art:50 sports:28 music:50
+Likes
+reading:100 art:50 sports:28 music:50
+
+Song Title: Let it Go
+Song Artist: Disney
+Song Genre: Soundtrack2
+Song Year: 2013
+Heard
+reading:100 art:100 sports:100 music:100
+Likes
+reading:100 art:100 sports:57 music:28
+
+Song Title: Master of Puppets
+Song Artist: Metallica
+Song Genre: Metal
+Song Year: 1986
+Heard
+reading:0 art:100 sports:42 music:16
+Likes
+reading:0 art:100 sports:42 music:16
+
+Song Title: My Heart Will Go On
+Song Artist: Celine Dion
+Song Genre: Pop
+Song Year: 1997
+Heard
+reading:100 art:50 sports:71 music:100
+Likes
+reading:0 art:50 sports:71 music:71
+
+Song Title: November Rain
+Song Artist: Guns n Roses
+Song Genre: Rock8
+Song Year: 1992
+Heard
+reading:0 art:100 sports:57 music:33
+Likes
+reading:0 art:100 sports:57 music:33
+
+Song Title: People are Strange
+Song Artist: The Doors
+Song Genre: Rock13
+Song Year: 1967
+Heard
+reading:0 art:50 sports:57 music:33
+Likes
+reading:0 art:0 sports:0 music:0
+
+Song Title: Piano Man
+Song Artist: Billie Joel
+Song Genre: Rock12
+Song Year: 1973
+Heard
+reading:100 art:50 sports:85 music:50
+Likes
+reading:100 art:50 sports:85 music:50
+
+Song Title: River Flows in You
+Song Artist: Yiruma
+Song Genre: Instrumental
+Song Year: 2011
+Heard
+reading:100 art:50 sports:28 music:42
+Likes
+reading:100 art:50 sports:28 music:28
+
+Song Title: Smooth
+Song Artist: Santana
+Song Genre: Rock4
+Song Year: 1999
+Heard
+reading:0 art:100 sports:57 music:0
+Likes
+reading:0 art:100 sports:57 music:0
+
+Song Title: Snow
+Song Artist: Red Hot Chili Peppers
+Song Genre: Rock3
+Song Year: 2006
+Heard
+reading:0 art:100 sports:71 music:42
+Likes
+reading:0 art:100 sports:71 music:42
+
+Song Title: Someone Like You
+Song Artist: Adele
+Song Genre: Soul1
+Song Year: 2011
+Heard
+reading:100 art:100 sports:100 music:85
+Likes
+reading:100 art:100 sports:71 music:71
+
+Song Title: Stairway to Heaven
+Song Artist: Led Zeppelin
+Song Genre: Rock9
+Song Year: 1971
+Heard
+reading:100 art:100 sports:85 music:66
+Likes
+reading:100 art:100 sports:85 music:66
+
+Song Title: Tiny Dancer
+Song Artist: Elton John
+Song Genre: Pop6
+Song Year: 1972
+Heard
+reading:0 art:50 sports:100 music:33
+Likes
+reading:0 art:50 sports:100 music:33
+
+Song Title: Tuesday's Gone
+Song Artist: Lynyrd Skynyrd
+Song Genre: Rock6
+Song Year: 1973
+Heard
+reading:0 art:50 sports:42 music:0
+Likes
+reading:0 art:50 sports:28 music:0
+
+Song Title: Viva La Vida
+Song Artist: Coldplay
+Song Genre: Pop5
+Song Year: 2008
+Heard
+reading:100 art:100 sports:85 music:85
+Likes
+reading:100 art:100 sports:85 music:85
+
+Song Title: Wish You Were Here
+Song Artist: Pink Floyd
+Song Genre: Rock
+Song Year: 1975
+Heard
+reading:100 art:100 sports:85 music:71
+Likes
+reading:100 art:50 sports:71 music:71
+
+Song Title: Wonderwall
+Song Artist: Oasis
+Song Genre: Pop4
+Song Year: 1995
+Heard
+reading:0 art:100 sports:85 music:57
+Likes
+reading:0 art:100 sports:85 music:57
+
+Song Title: Yesterday
+Song Artist: The Beatles
+Song Genre: Pop1
+Song Year: 1965
+Heard
+reading:0 art:100 sports:85 music:42
+Likes
+reading:0 art:100 sports:85 music:42

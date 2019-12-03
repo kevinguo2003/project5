@@ -1,0 +1,161 @@
+Song Title: Fade to Black
+Song Artist: Metallica
+Song Genre: Metal
+Song Year: 1984
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Tiny Dancer
+Song Artist: Elton John
+Song Genre: Pop
+Song Year: 1972
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:0 sports:100 music:0
+
+Song Title: November Rain
+Song Artist: Guns n Roses
+Song Genre: Rock1
+Song Year: 1992
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Stairway to Heaven
+Song Artist: Led Zeppelin
+Song Genre: Rock2
+Song Year: 1971
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Bohemian Rhapsody
+Song Artist: Queen
+Song Genre: Rock3
+Song Year: 1975
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Don't Stop Me Now
+Song Artist: Queen
+Song Genre: Rock4
+Song Year: 1979
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Piano Man
+Song Artist: Billie Joel
+Song Genre: Rock5
+Song Year: 1973
+Heard
+reading:0 art:0 sports:100 music:100
+Likes
+reading:0 art:0 sports:100 music:100
+
+Song Title: People are Strange
+Song Artist: The Doors
+Song Genre: Rock6
+Song Year: 1967
+Heard
+reading:0 art:0 sports:100 music:100
+Likes
+reading:0 art:0 sports:100 music:100
+
+Song Title: La La Land
+Song Artist: City of Stars
+Song Genre: Soundtrack
+Song Year: 2016
+Heard
+reading:0 art:0 sports:100 music:100
+Likes
+reading:0 art:0 sports:100 music:100
+
+Song Title: Bohemian Rhapsody
+Song Artist: Queen
+Song Genre: Rock3
+Song Year: 1975
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Don't Stop Me Now
+Song Artist: Queen
+Song Genre: Rock4
+Song Year: 1979
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Fade to Black
+Song Artist: Metallica
+Song Genre: Metal
+Song Year: 1984
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: La La Land
+Song Artist: City of Stars
+Song Genre: Soundtrack
+Song Year: 2016
+Heard
+reading:0 art:0 sports:100 music:100
+Likes
+reading:0 art:0 sports:100 music:100
+
+Song Title: November Rain
+Song Artist: Guns n Roses
+Song Genre: Rock1
+Song Year: 1992
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: People are Strange
+Song Artist: The Doors
+Song Genre: Rock6
+Song Year: 1967
+Heard
+reading:0 art:0 sports:100 music:100
+Likes
+reading:0 art:0 sports:100 music:100
+
+Song Title: Piano Man
+Song Artist: Billie Joel
+Song Genre: Rock5
+Song Year: 1973
+Heard
+reading:0 art:0 sports:100 music:100
+Likes
+reading:0 art:0 sports:100 music:100
+
+Song Title: Stairway to Heaven
+Song Artist: Led Zeppelin
+Song Genre: Rock2
+Song Year: 1971
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:100 sports:100 music:0
+
+Song Title: Tiny Dancer
+Song Artist: Elton John
+Song Genre: Pop
+Song Year: 1972
+Heard
+reading:0 art:100 sports:100 music:0
+Likes
+reading:0 art:0 sports:100 music:0

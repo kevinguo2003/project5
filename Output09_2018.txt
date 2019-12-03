@@ -1,0 +1,53 @@
+Song Title: Creep
+Song Artist: Radiohead
+Song Genre: Alternative
+Song Year: 1992
+Heard
+reading:0 art:0 sports:0 music:0
+Likes
+reading:0 art:0 sports:0 music:0
+
+Song Title: My Heart Will Go On
+Song Artist: Celine Dion
+Song Genre: Pop
+Song Year: 1997
+Heard
+reading:100 art:0 sports:0 music:100
+Likes
+reading:100 art:0 sports:0 music:100
+
+Song Title: All of Me
+Song Artist: John Legend
+Song Genre: R&B
+Song Year: 2013
+Heard
+reading:100 art:0 sports:0 music:0
+Likes
+reading:100 art:0 sports:0 music:0
+
+Song Title: All of Me
+Song Artist: John Legend
+Song Genre: R&B
+Song Year: 2013
+Heard
+reading:100 art:0 sports:0 music:0
+Likes
+reading:100 art:0 sports:0 music:0
+
+Song Title: Creep
+Song Artist: Radiohead
+Song Genre: Alternative
+Song Year: 1992
+Heard
+reading:0 art:0 sports:0 music:0
+Likes
+reading:0 art:0 sports:0 music:0
+
+Song Title: My Heart Will Go On
+Song Artist: Celine Dion
+Song Genre: Pop
+Song Year: 1997
+Heard
+reading:100 art:0 sports:0 music:100
+Likes
+reading:100 art:0 sports:0 music:100
