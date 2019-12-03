@@ -326,4 +326,18 @@ public class LinkedListTest extends student.TestCase {
 
     }
 
+ 
+    /**
+     * test the sort method
+     */
+    public void testSort() {
+        LinkedList<String> tempList = new LinkedList<String>();
+        tempList.add("happy");
+        tempList.add("zed");
+        tempList.add("sad");
+        tempList.add("zzz");
+        tempList.sort();
+        assertEquals("{happy, sad, zed, zzz}", tempList.toString());
+    } 
+
 }

@@ -39,12 +39,17 @@ public class Project5Test {
         song.getLikesByHobbies();
         song.getLikesByMajors();
         song.getLikesByRegions();
+        song.getHobbyHeardsTotal();
+        song.getHobbyLikesTotal();
+        song.getMajorsHeardsTotal();
+        song.getMajorsLikesTotal();
         assertEquals(song.getTitle(), "title");
 
         song.toString();
 
         assertEquals(song.getTitle(), "title");
-        Input.main(new String[] { "Book1.csv", "SongList2018Intro.csv" });
+        Input.main(new String[] { "MusicSurveyData2019F.csv",
+            "SongList2019F.csv" });
 
     }
 

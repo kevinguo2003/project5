@@ -287,6 +287,227 @@ public class Song {
     }
 
 
+    /**
+     * The toString method for Song class
+     * 
+     * @return String the info of the Song
+     */
+    @Override
+    public String toString() {
+        return "Song Title: " + title + "\n" + "Song Artist: " + artists + "\n"
+            + "Song Genre: " + genre + "\n" + "Song Year: " + date + "\n"
+            + "Heard" + "\n" + "reading" + hobbiesHeards[0] * 100 / Math.max(1,
+                hobbiesHeardsTotal[0]) + " " + "art" + hobbiesHeards[1] * 100
+                    / Math.max(1, hobbiesHeardsTotal[1]) + " " + "sports"
+            + hobbiesHeards[2] * 100 / Math.max(1, hobbiesHeardsTotal[2]) + " "
+            + "music" + hobbiesHeards[3] * 100 / Math.max(1,
+                hobbiesHeardsTotal[3]) + " " + "\n" + "Likes" + "\n" + ""
+            + "reading" + hobbiesLikes[0] * 100 / Math.max(1,
+                hobbiesLikesTotal[0]) + " " + "art" + hobbiesLikes[1] * 100
+                    / Math.max(1, hobbiesLikesTotal[1]) + " " + "sports"
+            + hobbiesLikes[2] * 100 / Math.max(1, hobbiesLikesTotal[2]) + " "
+            + "music" + hobbiesLikes[3] * 100 / Math.max(1,
+                hobbiesLikesTotal[3]) + "\n" + "\n";
+    }
 
+
+    /**
+     * do calc
+     * 
+     * @param pp
+     *            the person
+     */
+    public void addToHeards(Person pp) {
+        if (pp.getHobby().equals("reading")) {
+            hobbiesHeards[0]++;
+        }
+        else if (pp.getHobby().equals("art")) {
+            hobbiesHeards[1]++;
+        }
+        else if (pp.getHobby().equals("sports")) {
+            hobbiesHeards[2]++;
+        }
+        else if (pp.getHobby().equals("music")) {
+            hobbiesHeards[3]++;
+        }
+
+        if (pp.getMajor().equals("Computer Science")) {
+            majorsHeards[0]++;
+        }
+        else if (pp.getMajor().equals("Other Engineering")) {
+            majorsHeards[1]++;
+        }
+        else if (pp.getMajor().equals("Math or CMDA")) {
+            majorsHeards[2]++;
+        }
+        else if (pp.getMajor().equals("Other")) {
+            majorsHeards[3]++;
+        }
+
+        if (pp.getRegion().equals("Northeast")) {
+            regionsHeards[0]++;
+        }
+        else if (pp.getRegion().equals("Southeast")) {
+            regionsHeards[1]++;
+        }
+        else if (pp.getRegion().contains(
+            "United States (other than Southeast or Northwest)")) {
+            regionsHeards[2]++;
+        }
+        else if (pp.getRegion().contains("Outside of United States")) {
+            regionsHeards[3]++;
+        }
+
+    }
+
+
+    /**
+     * do calc
+     * 
+     * @param pp
+     *            the person
+     */
+    public void addToLikes(Person pp) {
+        if (pp.getHobby().equals("reading")) {
+            hobbiesLikes[0]++;
+        }
+        else if (pp.getHobby().equals("art")) {
+            hobbiesLikes[1]++;
+        }
+        else if (pp.getHobby().equals("sports")) {
+            hobbiesLikes[2]++;
+        }
+        else if (pp.getHobby().equals("music")) {
+            hobbiesLikes[3]++;
+        }
+
+        if (pp.getMajor().equals("Computer Science")) {
+            majorsLikes[0]++;
+        }
+        else if (pp.getMajor().equals("Other Engineering")) {
+            majorsLikes[1]++;
+        }
+        else if (pp.getMajor().equals("Math or CMDA")) {
+            majorsLikes[2]++;
+        }
+        else if (pp.getMajor().equals("Other")) {
+            majorsLikes[3]++;
+        }
+
+        if (pp.getRegion().equals("Northeast")) {
+            regionsLikes[0]++;
+        }
+        else if (pp.getRegion().equals("Southeast")) {
+            regionsLikes[1]++;
+        }
+        else if (pp.getRegion().contains(
+            "United States (other than Southeast or Northwest)")) {
+            regionsLikes[2]++;
+        }
+        else if (pp.getRegion().contains("Outside of United States")) {
+            regionsLikes[3]++;
+        }
+
+    }
+
+
+    /**
+     * do calc
+     * 
+     * @param pp
+     *            the person
+     */
+    public void addHeardTotals(Person pp) {
+        if (pp.getHobby().equals("reading")) {
+            hobbiesHeardsTotal[0]++;
+        }
+        else if (pp.getHobby().equals("art")) {
+            hobbiesHeardsTotal[1]++;
+        }
+        else if (pp.getHobby().equals("sports")) {
+            hobbiesHeardsTotal[2]++;
+        }
+        else if (pp.getHobby().equals("music")) {
+            hobbiesHeardsTotal[3]++;
+        }
+
+        if (pp.getMajor().equals("Computer Science")) {
+            majorsHeardsTotal[0]++;
+        }
+        else if (pp.getMajor().equals("Other Engineering")) {
+            majorsHeardsTotal[1]++;
+        }
+        else if (pp.getMajor().equals("Math or CMDA")) {
+            majorsHeardsTotal[2]++;
+        }
+        else if (pp.getMajor().equals("Other")) {
+            majorsHeardsTotal[3]++;
+        }
+
+        if (pp.getRegion().equals("Northeast")) {
+            regionsHeardsTotal[0]++;
+        }
+        else if (pp.getRegion().equals("Southeast")) {
+            regionsHeardsTotal[1]++;
+        }
+        else if (pp.getRegion().contains(
+            "United States (other than Southeast or Northwest)")) {
+            regionsHeardsTotal[2]++;
+        }
+        else if (pp.getRegion().contains("Outside of United States")) {
+            regionsHeardsTotal[3]++;
+        }
+
+    }
+
+
+    /**
+     * do calc
+     * 
+     * @param pp
+     *            the person
+     */
+    public void addLikeTotals(Person pp) {
+        if (pp.getHobby().equals("reading")) {
+            hobbiesLikesTotal[0]++;
+        }
+        else if (pp.getHobby().equals("art")) {
+            hobbiesLikesTotal[1]++;
+        }
+        else if (pp.getHobby().equals("sports")) {
+            hobbiesLikesTotal[2]++;
+        }
+        else if (pp.getHobby().equals("music")) {
+            hobbiesLikesTotal[3]++;
+        }
+
+        if (pp.getMajor().equals("Computer Science")) {
+            majorsLikesTotal[0]++;
+        }
+        else if (pp.getMajor().equals("Other Engineering")) {
+            majorsLikesTotal[1]++;
+        }
+        else if (pp.getMajor().equals("Math or CMDA")) {
+            majorsLikesTotal[2]++;
+        }
+        else if (pp.getMajor().equals("Other")) {
+            majorsLikesTotal[3]++;
+        }
+
+        if (pp.getRegion().equals("Northeast")) {
+            regionsLikesTotal[0]++;
+        }
+        else if (pp.getRegion().equals("Southeast")) {
+            regionsLikesTotal[1]++;
+        }
+        else if (pp.getRegion().contains(
+            "United States (other than Southeast or Northwest)")) {
+            regionsLikesTotal[2]++;
+        }
+        else if (pp.getRegion().contains("Outside of United States")) {
+            regionsLikesTotal[3]++;
+        }
+
+    }
 
 }

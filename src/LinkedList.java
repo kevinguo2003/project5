@@ -413,4 +413,40 @@ public class LinkedList<E> {
         }
     }
 
+
+    /**
+     * sort by genre
+     */
+    @SuppressWarnings("unchecked")
+    public void sort() {
+        for (int i = 1; i < this.size(); i++) {
+            for (int j = i; (j > 0) && (((Comparable<E>)this.get(j)).compareTo(
+                this.get(j - 1)) < 0); j--) {
+                this.swap(j - 1, j);
+            }
+        } 
+
+    }
+
+
+    /**
+     * swap two objects
+     * 
+     * @param begin
+     *            the begin index
+     * @param end
+     *            the end index
+     */
+    private void swap(int begin, int end) {
+        E currObj = this.get(begin);
+        E currObj2 = this.get(end);
+        this.remove(begin);
+        this.add(begin, currObj2);
+        this.remove(end);
+        this.add(end, currObj);
+
+    }
+
+//
+
 }
